@@ -1,5 +1,6 @@
 # PUI homework
 
-Deployed website: `add the URL to your deployed website`
+Deployed website: https://anikanb32.github.io/pui-homework
 
-Repository link: `add the URL to this repository`
+Repository link: https://github.com/anikanb32/pui-homework/tree/main
+
