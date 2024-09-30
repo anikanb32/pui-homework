@@ -40,6 +40,7 @@ glazingSelect.addEventListener('change', glazingChange);
 packSizeSelect.addEventListener('change', packSizeChange);
 
 
+
 // add elements to cart from glazing, pack size,
 // create this roll and add it to the cart 
 addToCartButton.addEventListener('click', () => {
@@ -48,6 +49,7 @@ addToCartButton.addEventListener('click', () => {
     const newRoll = new Roll(rollType, selectedGlazing, selectedPackSize, 
         rollData.basePrice);
     cart.push(newRoll);
+    //print the cart into console
     console.log(cart)
 });
 
