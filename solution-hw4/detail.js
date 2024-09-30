@@ -17,6 +17,7 @@ productImage.alt = `${rollType} Cinnamon Roll`;
       
 // calculate prices and changes 
 basePrice = rollData.basePrice;
+//duplicate of price.js so not relevant
 getPrice()
 document.getElementById('productPrice').textContent = `$${rollData.
     basePrice.toFixed(2)}`;
@@ -49,4 +50,5 @@ addToCartButton.addEventListener('click', () => {
     cart.push(newRoll);
     console.log(cart)
 });
+
 
