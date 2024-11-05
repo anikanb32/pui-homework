@@ -69,3 +69,131 @@ My interpretation of the criticism led me to believe that the second idea was th
 
 Focusing on the second idea with neuroscience, I plan to create a 3D model of the brain using APIs or other javascript interaction libraries. This would be both useful as well as interesting to users. I could have an interactive brain map that has clickable regions of the brain - providing information about functions, associated conditions and research related to these areas. 
 There could be learning modules or some type of simulation to show the onset of neurodegenerative diseases and the process of declining cognitive function - this could include interactive and clickable infographics or embedded videos. There could be interactive learning activities or games like ‘follow the synapse” to let signals travel in the brain and share scenarios related to conditions. Furthermore, after discussing with peers, I would emphasize accessibility features such as contrast, alt text for images or data visualizations, and keyboard navigation and support. 
+
+
+
+---
+
+# **FP2 \- Evaluation of the Final Project**
+
+## Project Description
+
+This project is an interactive tool that focuses on education of the brain and neuroscience principles. Users would be able to explore different brain areas, learn about the structures and cognitive functions that result. I might also implement a simulator to model concepts such as addiction or neurodegenerative diseases
+
+## High-Fi Prototypes
+
+### *Prototype 1*
+
+![main page1](images/mainpage1.png)
+
+### *Prototype 2*
+
+![brain map1](images/brainmap1.png)
+
+### *Prototype 3*
+
+![simulator](images/simulator.png)
+
+The user feedback that I had recieved was that the overall color scheme and layout was clear. For the first prototype with the main page, the layout was clear but the sizing of the menu was not as legible compared to the quote. For the second prototype, there could have been more information, and for the third prototype, the simulation inputs and how this interaction would work was not as clear. 
+
+
+
+
+
+## Usability Test
+
+I organized the usability test to have two parts: a functionality test as well as inquiring about the design. 
+First, I outlined the main tasks that the user should complete using a think-aloud 
+protocol. I wanted to hear about how they navigated the page and what elements they looked at 
+to gather information. The tasks were to identify and list the functions possible on the main 
+page. So the users described what was possible from this starting point. I then asked 
+about locating information on different brain regions, whether the users could hover, and click 
+correctly on the region. This would offer insights about website navigation and clarity. 
+I also asked a question about how one could run a simulation. Users could navigate to a simulation page and attempt to initiate a simulation - so I could gauge how this might be self-explanatory and 
+accessible the simulation is. 
+
+The results of the test showed that there were several areas to address in the redesign. Users suggested that menu items could be made more readable and understandable to enhance accessibility. The brain map page was clear and easy to use, which ensured that the design  met user expectations. However, the simulation page would benefit from more introductory information to guide first-time users. While users found the color scheme's contrast effective, they suggested incorporating more detailed content to support information depth. This offered a clear direction to refine the platform and improve user experience.
+
+
+
+Discuss the user feedback you got during the evaluation / usability test (\~300 words). Indicate which feedback you implemented, inspired new directions, or otherwise influenced your final design. 
+
+## Updated Designs
+
+![main page2](images/mainpage2.png)
+![brain map 2](images/brainmap2.png)
+
+These updated high-fidelity designs addressed the following in the changes: a larger font in the menu for readability, moving the quote and changing the font size for the visual to be less busy. 
+Adding more basic background information on the brain. Adding more in-depth information and analysis on the brain map page, and giving additional resources with embedded links. I would want the initial page to also have less static visuals (for example the brain can either move or show connections/synapses. 
+
+
+## Feedback Summary
+
+After presenting my usability test results as well as new designs our lab class, I received feedback focused on enhancing user interaction and making complex content more simple. I also got feedback on improving accessibility. One major suggestion was to streamline interactions and create the brain interface with D3.js. Since exploring brain regions is inherently complex, simplifying interactions by keeping visuals and controls intuitive and clearly explainedis essential. I can minimize unnecessary features and focusing more on on the essential interactive elements.
+
+To improve accessibility, I got a recommendation that highlighting should not rely solely on color but also incorporate size variations. By adjusting both color and size, important information becomes more visible to users - especially those with color vision deficiences. I plan to apply this across various elements on the platform - this includes brain regions or data points and I hope to have an inclusive, clear site that is usable for all. 
+
+An important suggestion was to make the landing page the simulator or brain map itself. This layout shift would give users immediate access to one of the main functionlities, allowing them to engage with simulations right from the start. Incorporating a dropdown menu for predefined conditions would allow users to select specific brain conditions - so that I could manually code these, simplifying the experience for any type of user.
+
+In terms of visuals, the feedback emphasized using images of the brain to illustrate different slices and activity areas, which would help users understand the complex structure more intuitively. I may plan to integrate cross-sectional images with highlights showing active regions, possibly using D3.js to create interactive overlays. This would allow users to explore what different “lighting up” patterns mean in relation to brain function.
+
+
+## Milestones
+
+This site has many components so it might take breaking tasks up into weeks to make 
+the process fragmented and easier to tackle. First, I would need to develop the basic UI for the 
+three pages - the navigation menu, logo, textboxes, informational text, and images. 
+I would then need to create a d3.js or three.js 3D brain that lights up in different areas and 
+gives corresponding information about brain regions. Furthermore, I would need to understand how to create a simulation - a brain with correct representations. 
+
+
+### *Implementation Plan*
+
+- Week 9 Oct 28 \- Nov 1:
+  - [X] FP1 due - Generate ideas 
+  
+- [ ] Week 10 Nov 4 \- Nov 8:   
+  - [ ] Finalize idea and create template for all three html pages, css, and js file
+
+- [ ] Week 11 Nov 11 \- Nov 15:  
+  - [ ] Experiment with D3.js brain and figure out how to highlight these different brain areas
+
+- [ ] Week 12 Nov 18 \- Nov 22:   
+  - [ ] Create simulation environment and isolate the conditions to highlight 
+
+- [ ] Week 13 Nov 25 \- Nov 29:  
+  - [ ] Test with users to understand what changes should be made 
+  - [ ] Make changes and update each of the pages to match the incentive
+
+  - [ ] Thanksgiving  
+- [ ] Week 14 Dec 2 \- Dec 6:  
+  - [ ] FP4 due 
+
+### *Libraries and Other Components*
+
+I plan to use D3.js or three.js to create some type of interactable brain structure 
+that users could play with. I would also try and use this for the simulation part as well. 
+
+
+## Generative AI Use Plan
+
+I plan to use Generative AI tools to create a style guide - it might give ideas on a color palette to follow, general shapes that would be applicable, and icons to consider and upload. 
+
+I would also aim to generate a framework when using more complex tools like d3.js to create the brain map. This is something that I am not familiar with, so I might need a little bit more guidance on this. 
+It can help me integrate the d3.js into the main html to visualize the brain. 
+
+### *Tool Use*
+
+* ChatGPT  
+  * I will use it for generating ideas on how to structure code for the brain map and simulation because it can help me consider methods that I am not currently familiar with (including using the framwork d3.js)
+  * I will not use it for writing code explicitly because it might not be able to help me with understand the meaning of what I am doing clearly.
+* Dall-e
+    * I will use it for understanding iconography and visuals that I can best use because it can help me identify good ways to convey information in a creative manner
+    * I will not use it for creating the brain model because it might not be able to help me with interactivity of the site the way that it is intended to.      
+
+### *Responsible Use*
+
+How would you use Generative AI responsibly? 
+- I would ensure that I do not just take the information given by AI in my solutions, and use it as a guide for implementing new ideas/code inspiration for the more complex development (especially with simulations and brainmaps in a 3D js library).
+
+---
