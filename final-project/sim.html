@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroLogic</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+   
+    <section id="logo">
+        <a href="index.html" class="brain-ind">
+            <img class="brain-sil" src="images/Unknown.png" alt="Brain Silhouette">
+        </a>
+        <div class="top-bot-nav">
+            <a href="index.html" class = "title-nav">
+                <h1 id = "nav-title">NeuroLogic</h1> 
+            </a>
+            
+            <div class="nav-list">
+                <a href="brainarea.html" class="nav-item">Brain Areas</a>
+                <a href="sim.html" class="nav-item">Simulation</a>
+                <a href="resources.html" class="nav-item">Resources</a>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section id="bold-title">
+        <h1>Changes in habits affect our brain...</h1>
+
+    </section>
+
+    <section id="information-1">
+        <div id="sim-title">
+            <h2><b id="sugar">Sugar</b>, <b id="caffeine">caffeine</b>, and <b id="sleep">sleep</b> significantly impact the brain by altering neurotransmitter activity</h2>
+
+        </div>
+      
+    </section>
+   
+
+    <section id="information-1">
+        <div >
+            <h2>Lets take a look at how this works</h2>
+
+        </div>
+       
+            <p id="sim-desc"> While 
+                there are many factors involved in changing neuronal activity, 
+                we can toggle the sliders for dopamine sensitivity, amount of 
+                change in stimulant, 
+                environmental effects, and a history of sensitivity.
+
+                <br>
+                <br>
+                You can also change the tab to see how this may look for caffeine 
+                and sleep. 
+                <br>
+
+            </p>
+      
+    </section>
+
+    <section id="terms-definitions">
+        <div class="definition-box">
+            <h3>Dopamine Sensitivity</h3>
+            <p>
+                How responsive an individual's dopamine receptors are to the neurotransmitter dopamine. 
+                This influences how strongly one reacts to rewards, motivations, or stimuli in the environment.
+            </p>
+        </div>
+    
+        <div class="definition-box">
+            <h3>Amount of Change</h3>
+            <p>
+                Represents the variation in the level of a stimulant introduced to the system. 
+                This highlights how any changes in stimulation impact dopamine release and thus neural activity.
+            </p>
+        </div>
+    
+        <div class="definition-box">
+            <h3>Environmental Effects</h3>
+            <p>
+                External factors that influence brain activity and dopamine levels, such as stress, 
+                social interactions, or exposure to certain socioeconomic environments.
+            </p>
+        </div>
+    
+        <div class="definition-box">
+            <h3>History of Sensitivity</h3>
+            <p>
+                An accumulated record of how sensitive the dopamine system has been over time. 
+                It can determine current receptor activity and influence the likelihood of habituation.
+            </p>
+        </div>
+    </section>
+
+    <section id="brain-simulation">
+        <h2>Brain Simulation</h2>
+        <br>
+    
+      
+        <div id="simulation-tabs">
+            <button class="tab-button active" data-simulation="sugar">Sugar</button>
+            <button class="tab-button" data-simulation="caffeine">Caffeine</button>
+            <button class="tab-button" data-simulation="sleep">Sleep</button>
+        </div>
+    
+     
+        <div id="controls"></div>
+          
+    
+       
+        <div id="simulation-container">
+            <canvas id="brain-visualization"></canvas>
+        </div>
+    
+       
+        <div id="pathway-info">
+            <h3>Affected Pathways</h3>
+            <p id="pathway-details">Select a simulation to view affected pathways.</p>
+        </div>
+    </section>
+
+  
+
+   
+
+
+   
+    <section id="reference">
+        <a href="index.html" class = "title-nav">
+            <h2>NeuroLogic</h2>
+
+        </a>
+       
+        <!-- <p><b>As long as our brain is a mystery, the universe, <br>the 
+            reflection of the structure of the brain will also be a mystery.</b><br>
+        - Ramon y Cajal</p> -->
+        <a href="index.html" class="brain-ind">
+        <img class="brain-index" src="images/Unknown.png" alt="Small Brain Silhouette">
+        </a>
+    </section>
+
+    <script src="js/main.js" type="module"></script>
+
+
+</body>
+</html>
