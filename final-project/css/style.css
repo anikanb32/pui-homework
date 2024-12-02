@@ -526,7 +526,7 @@ canvas {
 }
 
 .tab-button.active {
-    background-color: #888;
+    background-color: #666;
     font-weight: bold;
 }
 
@@ -571,7 +571,7 @@ canvas {
     margin-left: 5%;
     
     font-size: 60px;
-    color: #999;
+    color: #ffffff;
     margin-top: 0;
     margin-bottom:5%;
 }
@@ -613,7 +613,7 @@ input[type="range"] {
 }
 
 #caffeine {
-    color: #993333;
+    color: #F9645B;
     
 }
 

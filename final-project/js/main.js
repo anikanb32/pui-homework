@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", () => {
             pathways: "Sugar activates dopamine pathways, triggering a rapid release of dopamine <br>that heightens reward sensitivity and reinforces cravings. Over time, repeated sugar consumption<br> can desensitize receptors, requiring more sugar to achieve the same reward response and <br>potentially disrupting normal neural function.",
         },
         caffeine: {
-            color: 0x993333,
+            color: 0xF9645B,
             pathways: "Caffeine blocks adenosine receptors, reducing feelings of fatigue and increasing alertness. <br>It also triggers a mild dopamine release, enhancing mood and focus. Regular consumption can lead to tolerance, <br>requiring higher doses for the same effect and potentially affecting sleep cycles and dependency.",
         },
         sleep: {
