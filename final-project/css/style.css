@@ -191,7 +191,7 @@ section {
     align-items: flex-start; 
     padding: 20px;
     margin-left: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 0%;
 }
 
 #information-1 h2 {
@@ -573,6 +573,7 @@ canvas {
     font-size: 60px;
     color: #999;
     margin-top: 0;
+    margin-bottom:5%;
 }
 
 

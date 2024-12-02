@@ -28,6 +28,7 @@ function typeTextWithCursor(element, text, typingSpeed = 100) {
     }, typingSpeed);
 }
 
+
 // for index.html title "Understanding How We Think and Behave"
 document.addEventListener("DOMContentLoaded", () => {
     //target element
@@ -60,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //select target element 
     const boldTitleElement = document.querySelector("#bold-title-2 h1"); 
     const boldTitleText = "There is a lot we still need to make sense of"; 
-    if (boldTitleElement) {
+    if (boldTitleElement) { 
         // typing function call - with typing speed 
         typeTextWithCursor(boldTitleElement, boldTitleText, 100); 
     } 
@@ -258,7 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // adding cerebellum to brain (for shape) 
-    for (let i = 0; i < density * 0.35; i++) { 
+    for (let i = 0; i < density * 0.25; i++) { 
         const x = brainWidth * 0.3 + (Math.random() - 0.5) * cerebellumWidth;
         const y = -brainHeight * 0.4 + (Math.random() - 0.35) * cerebellumHeight; // Moved cerebellum higher by reducing offset
         const z = (Math.random() - 0.5) * cerebellumDepth;
@@ -439,10 +440,10 @@ document.addEventListener("DOMContentLoaded", () => {
             const x = Math.cos(radian) * radius;
             const y = Math.sin(radian) * radius;
             image.style.transform = `translate(${x}px, ${y}px)`;
-        });
+        }); 
 
 
-        //increment angle
+        //increment angle 
         angle += 1; 
         //reset angle 
         if (angle >= 360) angle = 0; 
@@ -451,3 +452,4 @@ document.addEventListener("DOMContentLoaded", () => {
     //rotate every 20ms 
     setInterval(rotateImages, 70); 
 });
+
