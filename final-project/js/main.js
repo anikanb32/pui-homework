@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const brainstemWidth = 0.7; 
     const brainstemHeight = 1; 
     const brainstemDepth = 0.3; 
-    const density = 500; // number of neurons 
+    const density = 700; // number of neurons 
 
     // helper function - generating brain shapes 
     function generateBrainShapePoint() {
@@ -230,7 +230,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const isInCerebellum =
                 Math.pow(x / (cerebellumWidth / 2), 2) +
                 Math.pow((y + brainHeight * 0.6) / (cerebellumHeight / 2), 2) +
-                Math.pow(z / (cerebellumDepth / 2), 2) < 1;
+                Math.pow(z / (cerebellumDepth / 3), 2) < 1;
 
             // brainstem shape
             const isInBrainstem =
@@ -250,7 +250,7 @@ document.addEventListener("DOMContentLoaded", () => {
     for (let i = 0; i < density; i++) {
         const { x, y, z } = generateBrainShapePoint();
 
-        const sphere = new THREE.Mesh(new THREE.SphereGeometry(0.1, 12, 12), brainMaterial);
+        const sphere = new THREE.Mesh(new THREE.SphereGeometry(0.1, 8, 8), brainMaterial);
         sphere.position.set(x, y, z);
         //test if neuron is activated
         sphere.userData.isActivated = false; 
@@ -258,8 +258,8 @@ document.addEventListener("DOMContentLoaded", () => {
         brainGroup.add(sphere);
     }
 
-    // adding cerebellum to brain (for shape) 
-    for (let i = 0; i < density * 0.25; i++) { 
+    //adding cerebellum to brain (for shape) 
+    for (let i = 0; i < density * 0.20; i++) { 
         const x = brainWidth * 0.3 + (Math.random() - 0.5) * cerebellumWidth;
         const y = -brainHeight * 0.4 + (Math.random() - 0.35) * cerebellumHeight; // Moved cerebellum higher by reducing offset
         const z = (Math.random() - 0.5) * cerebellumDepth;
@@ -269,6 +269,8 @@ document.addEventListener("DOMContentLoaded", () => {
         neurons.push(sphere);
         brainGroup.add(sphere);
     }
+
+   
 
     //brainstem 
     for (let i = 0; i < density * 0.1; i++) { 

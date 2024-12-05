@@ -26,6 +26,7 @@ section {
 .title-content h1 {
     font-size: 3rem;
     color: white;
+    /* text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); */
     margin-top: 0;
 }
 
@@ -375,10 +376,7 @@ canvas {
     background: linear-gradient(to top, #fff, #000);
 }
 
-#bold-title-resources {
-    background: white;
-    padding-bottom: 0;
-}
+
 
 
 
@@ -456,7 +454,7 @@ canvas {
     
     width: 150px;
     height: 150px; 
-    opacity: 0.8;
+    opacity: 1;
     transform: translateY(-50%); 
 }
 
@@ -464,7 +462,7 @@ canvas {
     
     width: 185px; 
     height: 185px; 
-    opacity: 0.8;
+    opacity: 1;
     transform: translateY(-50%); 
 }
 
@@ -555,16 +553,7 @@ canvas {
     margin-top: 0;
 }
 
-#bold-title-resources {
-    text-align: left;
-    margin-left: 3%;
-    font-weight: bold;
-    
-    font-size: 60px;
-    color: white;
-    margin-top: 0;
-    background:black;
-}
+
 
 #bold-title-2 {
     text-align: left;
@@ -637,8 +626,9 @@ input[type="range"] {
     display: flex;
     flex-wrap: wrap; 
     justify-content: center; 
-    gap: 20px; 
+    gap: 4%; 
     padding: 0px; 
+    margin-top: 10%;
     background-color: #000; 
     margin-bottom: 15%;
 }
@@ -651,7 +641,7 @@ input[type="range"] {
     background-color: #fff; 
     border: 1px solid #fff; 
     opacity: 0.9;
-    border-radius: 5px; 
+    border-radius: 12px; 
     color: #111; 
     text-align: left; 
     
@@ -693,6 +683,36 @@ input[type="range"] {
     margin: 10%;
 }
 
+.resource-box {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+
+
+}
+
+.resource-list {
+    color: black;
+    font-size: 20px;
+}
+
+#bold-title-resources {
+    text-align: left;
+    margin-left: 3%;
+    font-weight: bold;
+    
+    font-size: 40px;
+    color: black;
+    margin: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+
+    /* background:black; */
+}
+
+
 .grid-item {
     background-color: #ccc;
     color: #000;
@@ -716,4 +736,11 @@ input[type="range"] {
 
 .grid-item.text-centered {
     text-align: center;
+}
+
+#3d-brain-container {
+    
+    
+    color: blue;
+   
 }
