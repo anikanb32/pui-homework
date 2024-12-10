@@ -200,17 +200,26 @@ How would you use Generative AI responsibly?
 
 
 
-# **FP4 \- Final Project Writeup
+# **FP4 \- Final Project Writeup**
 
-##Part 1: Web Description
+## Part 1: Web Description
 
-##Part 2: User Interaction
+The website, NeuroLogic is a tool for users to understand neuroscience and aspects of the brain in a more interactive way. For those who are unfamiliar with how the brain works and how basic neuroscience principles are understood, this website can be a useful first resource into that space. The website aims to be styled as minimalistic, bold, and serious. 
+
+The information on this website is a first look into neuroscience. There are simple but crucial questions asked about what the brain is, how we understand it, and why human behavior can be mapped back to the brain. The website shares information on regions of the brain, allowing users to explore a 3D brain and examine how different areas have different purposes and functions. NeuroLogic also gives insight on how external factors affect the brain and its neuronal connections. For example, users can visualize how different stimulants or conditions can affect brain activity through a simulation. There is also further information and resources to encourage more learning through different types of media, including complex research papers. 
+
+NeuroLogic is engaging in that it presents a way to interact with the brain directly in a 3D space - with both learning about the brain areas as well as exploring changes in conditions, and subsequently seeing how neurons can beb activated and connected through synapses. There are also dynamic interactions throughout the website, where users can see movements - like typing effects or image rotation that matches their interactions with the site itself. 
+
+The website is catered to high school/college students and adults that are curious about neuroscience, but are generally unfamiliar with the subject. They look for a more refined resource that does not cater just to younger audiences, but can be more relatable to an older demographic. 
+
+
+## Part 2: User Interaction
 
 This page should be tested with a regular laptop size (1920 px) as well as
 a tablet size (770 px). 
 
 
-*Home Page*
+**Home Page**
 
 
 **Brain Areas Page**
@@ -219,15 +228,15 @@ a tablet size (770 px).
 
 *Resources Page*
 
-###Here are the accessibility evaluations using the WAVE tool. 
+### Here are the accessibility evaluations using the WAVE tool. 
 
-*Home Page
+* Home Page
 
-*Simulation Page
+* Simulation Page
 
-*Resources Page
+* Resources Page
 
-##Part 3: External Tool
+## Part 3: External Tool
 
 I used **three.js** as the external tool for this website. 
 Compared to other libraries and tools, this option helped create a more interesting
@@ -242,7 +251,7 @@ It adds an additional level of depth for understanding the brain in space.
 Users would also easily be able to interact with these elements, offering a much
 more engaging and exciting element of interaction. 
 
-##Part 4: Design Iteration
+## Part 4: Design Iteration
 
 There were many changes that I made from the original mockup and concept. 
 The colors on the website were brighter - a white and blue theme - and as I was
@@ -259,7 +268,7 @@ engaging and satisfying for users. Overall, as I worked on the implementation,
 I slowly added more interactions, and changed the theme a bit to invoke a more
 'serious' and 'bold statement' type of ambience. 
 
-##Part 5: Implementation Challenge
+## Part 5: Implementation Challenge
 
 Some of the biggest challenges were the integration of the external 
 brain visual and figuring out how to use terminal, get rid of errors and clean 
@@ -270,5 +279,5 @@ I also found it difficult to generate the brain for the simulation page.
 This was one area where I utilized generative AI to help in the process, since
 rendering an accurate visual was very challenging to do myself. 
 
-##Part 6: Generative AI Use and Reflection
+## Part 6: Generative AI Use and Reflection
 
