@@ -882,3 +882,121 @@ input[type="range"] {
 .nature {
     color: #e64949;
 }
+
+#latest-research {
+    padding: 10px;
+    padding-bottom:10%;
+    font-size: 20px;
+    text-align: left;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    border-top: 2px solid #000; /* Optional separation */
+}
+
+#latest-research h2 {
+    margin-top: 15%;
+    font-size: 40px;
+   
+    margin-bottom: 7%;
+    text-align: left;
+    margin-left: 10%;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.research-list {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add spacing between research items */
+}
+
+.research-item {
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: flex-start;
+  
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.research-item:hover {
+    background-color: rgb(197, 197, 197);
+    transform: scale(1.02);
+}
+
+.research-details {
+    flex: 3;
+    padding-right: 15px;
+}
+
+.research-details span.category {
+    font-weight: bold;
+    color: #555;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.research-details span.access {
+    color: #e63946;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.research-details span.date {
+    color: #777;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.research-details span.source a {
+    color: #e64949;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.research-details p.title a {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    margin: 10px 0;
+    display: inline-block;
+    
+}
+
+.research-details span.authors {
+    color: #666;
+    font-size: 15px;
+}
+
+.research-thumbnail {
+    flex: 1;
+    margin-top: 5%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.research-thumbnail img {
+    max-width: 200px;
+    max-height: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#information-resources {
+    padding-top:0%;
+    margin-top:0%;
+}
