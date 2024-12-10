@@ -100,44 +100,6 @@ section {
 
 
 
-#information-1-resources {
-    background: white;
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-start; 
-    padding: 20px;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    
-}
-#information-1-resources h2 {
-    font-size: 2rem; 
-    margin-bottom: 10px;
-    color: black;
-    background: white;
-}
-
-#information-1-resources p {
-    font-size: 1rem; 
-    line-height: 2; 
-    margin: 0;
-    text-align: left;
-    margin-right: 10%; 
-    color: black;
-    background: white;
-
-}
-
-
-#details-resources {
-    background: white;
-    padding-top: 0;
-    margin-top: 0;
-}
-.body-resources {
-    background: white;
-}
-
 #information-2 {
     display: flex;
     flex-direction: column;
@@ -233,44 +195,10 @@ section {
     
 }
 
-.rotating-images {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    margin-left: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.rotating-images .image {
-    position: absolute;
-    width: 70px; 
-    height: 70px;
-    border-radius: 50%; 
-    opacity: 0.8;
- 
-    
-    transition: transform 0.1s linear;
-}
-
-.rotating-images .smiley {
-    transform: translate(-60px, -60px);
-}
-.rotating-images .winky {
-    transform: translate(60px, -60px); 
-}
-.rotating-images .nervous {
-    transform: translate(0, 60px); 
-}
-
 
 
 .page-item:hover {
-    transform: scale(1.4);
-    
-    
+    transform: scale(1.4);  
 }
 
 
@@ -281,28 +209,19 @@ section {
     text-decoration: none;
     padding-top: 10%;
     margin-top: 10%;
-    
-
-
     background: linear-gradient(to top, #444, #000);
     
 }
 
 #reference p {
     line-height: 25px;
-   
-    
     font-size: 13px;
 }
 
 #reference-resources {
-   
     height: 300px;
     font-size: 1rem;
     text-decoration: none;
-    
-
-
     background: linear-gradient(to top, #444, #000);
 }
 
@@ -371,13 +290,6 @@ canvas {
     padding-bottom: 10%;
 }
 
-#logo-resources {
-    display: flex;
-    padding-bottom: 10%;
-    background: linear-gradient(to top, #fff, #000);
-}
-
-
 
 
 
@@ -409,11 +321,6 @@ canvas {
 }
 
 
-.nav-bar:hover {
-    transform: scale(1.4);
-    font-weight: bold;
-    
-}
 
 .nav-list {
     display: flex;
@@ -426,7 +333,6 @@ canvas {
 .nav-item {
     padding: 20px;
     margin-bottom: 70px;
-   
     gap: 70px;
     color: white;
     font-size: 18px;
@@ -675,67 +581,6 @@ input[type="range"] {
     }
 }
 
-
-#grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 20px;
-    margin: 10%;
-}
-
-.resource-box {
-    background-color: #fff;
-    border-radius: 15px;
-    width: 40%;
-    margin-left: 5%;
-    padding: 2%;
-
-
-}
-
-.resource-list {
-    color: black;
-    font-size: 20px;
-}
-
-#bold-title-resources {
-    text-align: left;
-    margin-left: 3%;
-    font-weight: bold;
-    
-    font-size: 40px;
-    color: black;
-    margin: 5%;
-    margin-top: 5%;
-    margin-left: 5%;
-}
-
-
-.grid-item {
-    background-color: #ccc;
-    color: #000;
-    border-radius: 8px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.grid-item.large {
-    grid-column: span 2;
-    height: 200px;
-}
-
-.grid-item.tall {
-    grid-row: span 2;
-    height: 200px;
-}
-
-.grid-item.text-centered {
-    text-align: center;
-}
 
 #3d-brain-container {
     

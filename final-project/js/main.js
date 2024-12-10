@@ -1,4 +1,3 @@
-
 //typing effects 
 function typeTextWithCursor(element, text, typingSpeed = 100) {
     //create cursor inline
@@ -311,26 +310,25 @@ document.addEventListener("DOMContentLoaded", () => {
             return neuronA.position.distanceTo(neuronB.position);
         }
 
-        // Different activation probabilities and connection thresholds depending on active simulation
+        // probabilities and connection thresholds depending on active simulation
         function getSimulationParameters() {
-            // Base parameters from sliders
+            // parameters from sliders
             const dopamineSensitivity = parameters.dopamineSensitivity / 100;
             const amountOfChange = parameters.amountOfChange / 100;
             const environmentalEffects = parameters.environmentalEffects / 100;
 
-            // Adjust behavior by simulation
-            // These multipliers and thresholds are examples; adjust as needed.
+            
             if (activeSimulation === "sugar") {
                 return {
-                    activationProbability: dopamineSensitivity * amountOfChange * environmentalEffects * 0.8, 
+                    activationProbability: dopamineSensitivity * amountOfChange * environmentalEffects * 0.7, 
                     connectionDistance: 1.5,
-                    maxConnections: 3
+                    maxConnections: 4
                 };
             } else if (activeSimulation === "caffeine") {
                 return {
-                    activationProbability: dopamineSensitivity * amountOfChange * environmentalEffects * 0.5,
-                    connectionDistance: 1.2,
-                    maxConnections: 2
+                    activationProbability: dopamineSensitivity * amountOfChange * environmentalEffects * 0.4,
+                    connectionDistance: 1.0,
+                    maxConnections: 3
                 };
             } else if (activeSimulation === "sleep") {
                 return {
@@ -340,7 +338,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 };
             }
 
-            // Default fallback
+            // fallback
             return {
                 activationProbability: dopamineSensitivity * amountOfChange * environmentalEffects,
                 connectionDistance: 1.5,
@@ -461,38 +459,6 @@ document.addEventListener("scroll", () => {
 
     // move image based on parallax movement
     image.style.transform = `translateY(${scrollPosition * 0.5}px)`;
-});
-
-
-// Rotation of faces on index.html page
-document.addEventListener("DOMContentLoaded", () => {
-    const images = document.querySelectorAll(".rotating-images .image");
-    const radius = 70; 
-    //start angle
-    let angle = 0; 
-
-    function rotateImages() {
-        images.forEach((image, index) => {
-            // image spacing
-            const offsetAngle = angle + index * (360 / images.length); 
-            //deg --> rad
-            const radian = (offsetAngle * Math.PI) / 180; 
-
-            // sin / cos to determine circular movement (up/down for x and y isolate)
-            const x = Math.cos(radian) * radius;
-            const y = Math.sin(radian) * radius;
-            image.style.transform = `translate(${x}px, ${y}px)`;
-        }); 
-
-
-        //increment angle 
-        angle += 1; 
-        //reset angle 
-        if (angle >= 360) angle = 0; 
-    }
-
-    //rotate every 20ms 
-    setInterval(rotateImages, 70); 
 });
 
 
