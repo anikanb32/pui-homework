@@ -8,7 +8,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 </head>
-<body >
+<body>
    
     <div aria-label="logo and navigation header" id="logo">
         <a href="index.html" class="brain-ind">
@@ -19,7 +19,7 @@
                 <h1 id = "nav-title">NeuroLogic</h1> 
             </a>
             
-            <div class="nav-list">
+            <div class="nav-list" aria-label="Navigation bar">
                 <a href="index.html" class="nav-item">Home</a>
                 <a href="brainarea.html" class="nav-item">Brain Areas</a>
                 <a href="sim.html" class="nav-item">Simulation</a>
@@ -28,131 +28,219 @@
         </div>
     </div>
 
-    <div>
-        <div class = "resource-box">
-            <span id=bold-title-resources>
-                Current Research 
-            </span>
-            <div class = "resource-list">
-                <ul>
-                    <li>
-                        this
-                    </li>
-                    <li>
-                        this
-                    </li>
-                    <li>
-                        this
-                    </li>
-                </ul>
+    <section id="information-resources" aria-label="Neuroscience quote">
+        <img src="https://coursalytics.com/blog/wp-content/uploads/2023/09/492AB4E6-3A06-418F-90EB-7CDE817784E2.gif">
+     
+        <h2>
+            As long as our brain is a <b class="nature">mystery</b>, the universe, <br>the 
+            reflection of the structure of the brain will 
+            <br>also be a <b class="nature">mystery</b>.
+            <br> 
+            <br>
+        - Ramon y Cajal
+        </h2>
+
+    </section>
+
+    <section id="interactive-resources" aria-label="interaction resources with cards">
+        <h2>Online Neuroscience Resources</h2>
+        <div class="resource-cards">
+            <div class="card" aria-label="Crash Course Card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Neuroscience Crash Course</h3>
+                        <img src="images/crashcourseanimation.webp" alt="Crash Course Neuron">
+                    </div>
+                    <div class="card-back">
+                        <p>Crash Course provides high-quality videos explaining neuroscience topics in detail - catering to beginners and advanced learners.</p>
+                        <a href="https://www.youtube.com/playlist?list=PLOA0aRJ90NxuIgOC9YGRUT4Y-CsP12bsS" class="learn-more">View Resource</a>
+                    </div>
+                </div>
             </div>
-            
+    
+            <div class="card" aria-label="Brain Exploded Lecture Series Card">          
+                <div class="card-inner">
+                    <div class ="card-front">
+                        <h3>Brain Exploded Lecture Series</h3>
+                        <img src="images/brainexploded.jpeg" alt="Brain Exploded">
+                    </div>
+                    <div class="card-back">
+                        <p>Understand realities behind common myths like "We only use 10% of our brain" with engaging animations and facts.</p>
+                        <a href="https://www.thegreatcourses.com/courses/brain-myths-exploded-lessons-from-neuroscience" class="learn-more">View Resource</a>
+                    </div>
+                </div>
+                        
+            </div>
+    
+            <div class="card" aria-label="2-Minute Neuro Card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>2-Minute Neuroscience</h3>
+                        <img src="images/2minneuro.jpg" alt="2-Minute Neuroscience">
+                    </div>
+                    <div class="card-back">
+                        <p>Quick, simplified explanations of neuroscience concepts like neurons, synapses, and the chemical bases of the brain.</p>
+                        <a href="https://www.youtube.com/playlist?list=PLNZqyJnsvdMqFNFyHvMFrFnlXLosnwwB_" class="learn-more">View Resource</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card" aria-label="Neurology Journals Info Card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Neurology Journals Infographics</h3>
+                        <img src="images/infographic.png" alt="Neuroscience Infographics ">
+                    </div>
+                    <div class="card-back">
+                        <p>Offers infographics and video summaries created by scientific writers and illustrators, providing engaging and convenient ways to understand information presented in select articles.</p>
+                        <a href="https://www.neurology.org/infographics" class="learn-more">View Resource</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-<!-- 
-    
-    <div id="grid-container">
-        <div class="grid-item tall">Videos:<br> Cognitive Science Principles</div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item large text-centered">Research Groups</div>
-        <div class="grid-item"></div>
-        <div class="grid-item large text-centered">History</div>
-    </div> -->
-
-
-    
-    <section id="bold-title-resources">
-        Current Research
-
     </section>
 
-   
-        <section id="information-1">
-            <div>
-                <h2>Lets take a look at how this works</h2>
-    
+    <section id="interactive-resources" aria-label="Interactive Resource Cards">
+        <div class="resource-cards">
+            <div class="card" aria-label="TED Talk Card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>TED Talks: Neuroscience</h3>
+                        <img src="images/ted-talk.jpg" alt="TED Talk Image">
+                    </div>
+                    <div class="card-back">
+                        <p>Talks on neuroscience explores how the brain shapes human behavior, perception, and potential, often connecting cutting-edge research to everyday life or transformative ideas.</p>
+                        <a href="https://www.ted.com/topics/neuroscience" class="learn-more">View Resource</a>
+                    </div>
+                </div>
             </div>
-           
-                <p> Click on dots on the brain to see what they do...
-                </p>
-          
-        </section>
+    
+            <div class="card" aria-label="Brain Facts Card">          
+                <div class="card-inner">
+                    <div class ="card-front">
+                        <h3>BrainFacts.org</h3>
+                        <img src="images/brainfacts.png" alt="BrainFacts.org image">
+                    </div>
+                    <div class="card-back">
+                        <p>BrainFacts.org is an educational resource presented by the Society for Neuroscience, offering accessible information on brain function, diseases, and research developments.</p>
+                        <a href="https://www.brainfacts.org/" class="learn-more">View Resource</a>
+                    </div>
+                </div>
+                        
+            </div>
+    
+            <div class="card" aria-label="The Dana Foundation Card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>The Dana Foundation</h3>
+                        <img src="images/dana.jpg" alt="Dana Foundation Image">
+                    </div>
+                    <div class="card-back">
+                        <p>The Dana Foundation is a private philanthropic organization dedicated to advancing neuroscience that benefits society, focusing on education, interdisciplinary training, and public engagement.</p>
+                        <a href="https://dana.org/resources/" class="learn-more">View Resource</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card" aria-label="NIH Blueprint Card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>NIH Blueprint for Neuroscience Research</h3>
+                        <img src="images/nihblueprint.png" alt="NIH Blueprint">
+                    </div>
+                    <div class="card-back">
+                        <p>An introductory survey of neuroscience topics, from neurons to brain systems, offered for free by Harvard.</p>
+                        <a href="https://neuroscienceblueprint.nih.gov/" class="learn-more">View Resource</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    
 
-
-
+    <section id="latest-research" aria-label="Nature Journal Research">
+        <h1 class="nature">Nature Journal</h1>
+        <h2>Latest Research and Reviews</h2>
+        <div class="research-list">
+            <!-- First Research Item -->
+            <div class="research-item" aria-label="Retinal Slip Research Link">
+                <div class="research-details">
+                    <p class="title"><a href="https://www.nature.com/articles/s41433-024-03533-z#:~:text=Retinal%20slip%20can%20adversely%20affect,of%20VOR%20and%20retinal%20slip.">The potential role of retinal slip in National Football League (NFL) officiating and its effect on on-field decision making: mechanisms and countermeasures</a></p>
+                    <span class="category">Reviews</span>
+                    <span class="date">06 Dec 2024</span>
+                    <span class="source"><a href="https://www.nature.com/eye/">Eye</a></span>
+                    
+                    <span class="authors">Nicholas Panzo, Joshua Ong ... Andrew G. Lee</span>
+                </div>
+                <div class="research-thumbnail">
+                    <img src="images/football.png" alt="NFL Officiating">
+                </div>
+            </div>
+    
+            <div class="research-item" aria-label="Opioid Receptor Research Link">
+                <div class="research-details">
+                    <p class="title"><a href="https://www.nature.com/articles/s41380-024-02814-z#:~:text=06%20December%202024-,Delta%20opioid%20receptor%20agonists%20activate%20PI3K%E2%80%93mTORC1%20signaling%20in%20parvalbumin,exert%20acute%20antidepressant%2Dlie%20effects">Delta opioid receptor agonists activate PI3K–mTORC1 signaling in parvalbumin-positive interneurons in mouse infralimbic prefrontal cortex to exert acute antidepressant-like effects</a></p>
+                    <span class="category">Research</span>
+                    <span class="date">06 Dec 2024</span>
+                    <span class="source"><a href="https://www.nature.com/mp/">Molecular Psychiatry</a></span>
+                    <span class="authors">Toshinori Yoshioka, Daisuke Yamada ... Akiyoshi Saitoh</span>
+                </div>
+                <div class="research-thumbnail">
+                    <img src="images/opioid-receptor.png" alt="Delta Opioid Receptor">
+                </div>
+            </div>
+    
+            <div class="research-item" aria-label="Tactile Sensation Research Link">
+                <div class="research-details">
+                    <p class="title"><a href="https://www.nature.com/articles/s41551-024-01299-z">Evoking stable and precise tactile sensations via multi-electrode intracortical microstimulation of the somatosensory cortex</a></p>
+                    <span class="category">Research</span>
+                    <span class="date">06 Dec 2024</span>
+                    <span class="source"><a href="https://www.nature.com/natbiomedeng/">Nature Biomedical Engineering</a></span>
+                    <span class="authors">Charles M. Greenspon, Giacomo Valle ... Sliman J. Bensmaia</span>
+                </div>
+                <div class="research-thumbnail">
+                    <img src="images/tactile-sensations.png" alt="Tactile Sensations">
+                </div>
+            </div>
+    
+            <div class="research-item" aria-label="BCI Research Link">
+                <div class="research-details">
+                    <p class="title"><a href="https://www.nature.com/articles/s41551-024-01297-1">Enhanced control of a brain–computer interface by tetraplegic participants via neural-network-mediated feature extraction</a></p>
+                    <span class="category">Research</span>
+                    <span class="date">06 Dec 2024</span>
+                    <span class="source"><a href="https://www.nature.com/natbiomedeng/">Nature Biomedical Engineering</a></span>
+                    <span class="authors">Benyamin Haghi, Tyson Aflalo ... Azita Emami</span>
+                </div>
+                <div class="research-thumbnail">
+                    <img src="images/bci.png" alt="Brain–Computer Interface">
+                </div>
+            </div>
+    
+            <div class="research-item" aria-label="Long-Term Memory Research link">
+                <div class="research-details">
+                    <p class="title"><a href="https://www.nature.com/articles/s41593-024-01831-z">Formation of long-term memory without short-term memory revealed by CaMKII inhibition</a></p>
+                    <span class="category">Research</span>
+                    <span class="date">05 Dec 2024</span>
+                    <span class="source"><a href="https://www.nature.com/neuro/">Nature Neuroscience</a></span>
+                    <span class="authors">Myung Eun Shin, Paula Parra-Bueno & Ryohei Yasuda</span>
+                </div>
+                <div class="research-thumbnail">
+                    <img src="images/memory.png" alt="Long-Term Memory">
+                </div>
+            </div>
+        </div>
+    </section>   
   
-        <section id="information-1">
-            <div>
-                <h2>Lets take a look at how this works</h2>
-    
-            </div>
-           
-                <p> Click on dots on the brain to see what they do...
-                </p>
-          
-        </section>
-
-
-
-    <section id="bold-title-resources">
-        History
-
+    <section aria-label="Scrolling image of MRI scans" id="information-2">
+        <img src="images/normalmri.jpg" alt="fMRI" class="background-image">
+        <div id="resources-grid">
+        </div>
     </section>
 
- 
-        <section id="information-1">
-            <div>
-                <h2>Lets take a look at how this works</h2>
-    
-            </div>
-           
-                <p> Click on dots on the brain to see what they do...
-                </p>
-          
-        </section>
-
-
-
-  
-        <section id="information-1">
-            <div>
-                <h2>Lets take a look at how this works</h2>
-    
-            </div>
-           
-                <p> Click on dots on the brain to see what they do...
-                </p>
-          
-        </section>
-
- 
-
-    <section id="bold-title-resources">
-        Tools
-
-    </section>
-    
-
-
-      
-  
-   
-
-  
-
-   
-
-    
-    <section id="reference-resources">
+    <section id="reference-resources" aria-label="Footer">
         <a href="index.html" class = "title-nav">
             <h2>NeuroLogic</h2>
-
         </a>
-        
-        <!-- <p><b>As long as our brain is a mystery, the universe, <br>the 
-            reflection of the structure of the brain will also be a mystery.</b><br>
-        - Ramon y Cajal</p> -->
         <a href="index.html" class="brain-ind">
         <img class="brain-index" src="images/Unknown.png" alt="Small Brain Silhouette">
         </a>

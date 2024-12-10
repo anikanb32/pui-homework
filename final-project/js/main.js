@@ -455,3 +455,14 @@ document.addEventListener("DOMContentLoaded", () => {
     setInterval(rotateImages, 70); 
 });
 
+
+
+document.querySelectorAll(".card").forEach((card) => {
+    card.addEventListener("click", (e) => {
+        // Prevent flipping when clicking on the link
+        if (e.target.tagName === "A") {
+            return; // Do nothing if a link is clicked
+        }
+        card.classList.toggle("flipped");
+    });
+});

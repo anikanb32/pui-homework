@@ -10,7 +10,7 @@
 </head>
 <body>
    
-    <div id="logo">
+    <div id="logo" aria-label="logo and title">
         <a href="index.html" class="brain-ind">
             <img class="brain-sil" src="images/Unknown.png" alt="Brain Silhouette">
         </a>
@@ -18,8 +18,7 @@
             <a href="index.html" class = "title-nav">
                 <h1 id = "nav-title">NeuroLogic</h1> 
             </a>
-            
-            <div class="nav-list">
+            <div class="nav-list" aria-label="navigation bar">
                 <a href="index.html" class="nav-item">Home</a>
                 <a href="brainarea.html" class="nav-item">Brain Areas</a>
                 <a href="sim.html" class="nav-item">Simulation</a>
@@ -28,45 +27,35 @@
         </div>
     </div>
 
-
-    
-    <section id="bold-title">
+    <section id="bold-title" aria-label="Text title: Changes in habits affect our brain...">
         <h1>Changes in habits affect our brain...</h1>
-
     </section>
 
-    <section id="information-1">
+    <section id="information-1" aria-label="Drug/Stimulant introduction">
         <div id="sim-title">
             <h2><b id="sugar">Sugar</b>, <b id="caffeine">caffeine</b>, and <b id="sleep">sleep</b> significantly impact the brain by altering neurotransmitter activity</h2>
-
         </div>
-      
     </section>
    
 
-    <section id="information-1">
+    <section id="information-1" aria-label="Simulation information">
         <div >
             <h2>Lets take a look at how this works</h2>
-
         </div>
-       
             <p id="sim-desc"> While 
                 there are many factors involved in changing neuronal activity, 
                 we can toggle the sliders for dopamine sensitivity, amount of 
                 change in stimulant, 
                 environmental effects, and a history of sensitivity.
-
                 <br>
                 <br>
                 You can also change the tab to see how this may look for caffeine 
                 and sleep. 
                 <br>
-
             </p>
-      
     </section>
 
-    <section id="terms-definitions">
+    <section id="terms-definitions" aria-label="Description of each metric used in the simulation">
         <div class="definition-box">
             <h3>Dopamine Sensitivity</h3>
             <p>
@@ -100,48 +89,28 @@
         </div>
     </section>
 
-    <section id="brain-simulation">
+    <section id="brain-simulation" aria-label="Interactive Brain Simulation Visual">
         <h2>Brain Simulation</h2>
         <br>
-    
-      
         <div id="simulation-tabs">
             <button class="tab-button active" data-simulation="sugar">Sugar</button>
             <button class="tab-button" data-simulation="caffeine">Caffeine</button>
             <button class="tab-button" data-simulation="sleep">Sleep</button>
         </div>
-    
-     
         <div id="controls"></div>
-          
-    
-       
         <div id="simulation-container">
             <canvas id="brain-visualization"></canvas>
         </div>
-    
-       
         <div id="pathway-info">
             <h3>Affected Pathways</h3>
             <p id="pathway-details">Select a simulation to view affected pathways.</p>
         </div>
     </section>
-
-  
-
    
-
-
-   
-    <section id="reference">
+    <section id="reference" aria-label="Footer">
         <a href="index.html" class = "title-nav">
             <h2>NeuroLogic</h2>
-
         </a>
-       
-        <!-- <p><b>As long as our brain is a mystery, the universe, <br>the 
-            reflection of the structure of the brain will also be a mystery.</b><br>
-        - Ramon y Cajal</p> -->
         <a href="index.html" class="brain-ind">
         <img class="brain-index" src="images/Unknown.png" alt="Small Brain Silhouette">
         </a>
