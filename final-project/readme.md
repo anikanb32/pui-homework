@@ -197,3 +197,78 @@ How would you use Generative AI responsibly?
 - I would ensure that I do not just take the information given by AI in my solutions, and use it as a guide for implementing new ideas/code inspiration for the more complex development (especially with simulations and brainmaps in a 3D js library).
 
 ---
+
+
+
+# **FP4 \- Final Project Writeup
+
+##Part 1: Web Description
+
+##Part 2: User Interaction
+
+This page should be tested with a regular laptop size (1920 px) as well as
+a tablet size (770 px). 
+
+
+*Home Page*
+
+
+**Brain Areas Page**
+
+**Simulation Page**
+
+*Resources Page*
+
+###Here are the accessibility evaluations using the WAVE tool. 
+
+*Home Page
+
+*Simulation Page
+
+*Resources Page
+
+##Part 3: External Tool
+
+I used **three.js** as the external tool for this website. 
+Compared to other libraries and tools, this option helped create a more interesting
+visual for users - where they can interact and view elements in a 3d space. 
+For a topic like neuroscience learning, it would help to visualize the brain in 
+three dimensions, especially getting a sense for brain regions and neuronal connections. 
+There were two applications of three.js, one was on the simulation page, 
+and the other was the brain areas page. Both of these interactions are slightly
+different, allowing the user to directly examine the brain to discover brain areas, 
+or other the other hand they can manipulate parameters to view a simulation in 3d. 
+It adds an additional level of depth for understanding the brain in space. 
+Users would also easily be able to interact with these elements, offering a much
+more engaging and exciting element of interaction. 
+
+##Part 4: Design Iteration
+
+There were many changes that I made from the original mockup and concept. 
+The colors on the website were brighter - a white and blue theme - and as I was
+changing the colors while coding, I realized that a more dramatic effect could be 
+achieved with using black, white, grayscales, and pops of red. It also would allow
+for clearer contrast - ensuring that color variations isn't the only distinction 
+for text/buttons. I also made the pages more dynamic than I had originally thought. 
+Although I wanted to go for a minimalistic design, I realized that there does have to 
+be enough text to support the function and meaning of the site. I also wanted to add
+visually interesting elements - like the typing effect for some titles throughout 
+the site and a parallax effect for background images. The resource page cards were able 
+to flip and there were small interactions like the gears shifting to be 
+engaging and satisfying for users. Overall, as I worked on the implementation, 
+I slowly added more interactions, and changed the theme a bit to invoke a more
+'serious' and 'bold statement' type of ambience. 
+
+##Part 5: Implementation Challenge
+
+Some of the biggest challenges were the integration of the external 
+brain visual and figuring out how to use terminal, get rid of errors and clean 
+up outdated code. Editing that codebase was very difficult since it required
+learning and familiarizing with how different parts rendered. 
+
+I also found it difficult to generate the brain for the simulation page. 
+This was one area where I utilized generative AI to help in the process, since
+rendering an accurate visual was very challenging to do myself. 
+
+##Part 6: Generative AI Use and Reflection
+
