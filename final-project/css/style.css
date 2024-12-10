@@ -745,3 +745,11 @@ input[type="range"] {
     color: blue;
    
 }
+
+.red-circle{
+    width: 5%;
+    margin-bottom: 5%;
+}
+.red-text {
+    color: red;
+}
