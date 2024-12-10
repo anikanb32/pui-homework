@@ -891,7 +891,7 @@ input[type="range"] {
     background-color: #000;
     color: #fff;
     font-family: Arial, sans-serif;
-    border-top: 2px solid #000; /* Optional separation */
+    border-top: 2px solid #000; 
 }
 
 #latest-research h2 {
@@ -911,7 +911,7 @@ input[type="range"] {
     margin-right: 10%;
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Add spacing between research items */
+    gap: 20px; 
 }
 
 .research-item {
