@@ -221,30 +221,26 @@ a tablet size (770 px).
 
 **Home Page**
 
+The home page is the landing page for the website. It is more of an informational
+page where users can scroll all the way down to see answers to overarching 
+questions in neuroscience. There are moving pictures, parallax image backgrounds, and scroll movement animations for dynamic visuals. For users to interact, the navigation bar highlights "brain areas", "simulation", and "resources pages" where you can click into different website pages to navigate. 
 
 **Brain Areas Page**
 
+On this page, the top navigation bar can take you back to the home page or any other page. You can scroll down to view the 3D brain. In this brain container, you can click and drag the brain to view it from different angles. You can also zoom
+in and out using the trackpad. There are red dots located in different 
+regions of the brain that you can click to see the function, shown in a text box to the right. 
+
+
 **Simulation Page**
+
+On the Simulation Page, you can read about how particular stimulant substances (sleep and caffeine) as well as lack of sleep can affect neuronal activity. You can take a look at the basis of some of the parameters used here with the parameter detail boxes. For the brain simulation component of the website, there are three separate tabs for Sugar, Caffeine, and Sleep. You can toggle each of the paramaters with the sliders to see how dopamine sensitivity, amount of change in stimulant, environmental effects, and history of sensitivity can affect the brain's number of synapses. You should see a change in highlighted neurons as well as lines depicting connections between them. You can also see explanations of the simulation system under the Affected Pathways section below the interactive box. 
 
 **Resources Page**
 
-### Here are the accessibility evaluations using the WAVE tool. 
+On this page, you can scroll down to see flippable cards that outline additional online neuroscience resources. You can hover over the cards to make them flip and click on the card to make it stay flipped to the back side. You can click on it again for it to flip to the front again. On the back, you can click on "View Resource" to go to the link to that particular source. 
 
-* Home Page
-![Wave Tool Summary index.html](images/index-summary.png)
-![Wave Tool Details index.html](images/index-details.png)
-
-* Brain Areas Page
-![Wave Tool Summary brainareas.html](images/brainareas-summary.png)
-![Wave Tool Details brainareas.html](images/brainareas-details.png)
-
-* Simulation Page
-![Wave Tool Summary sim.html](images/sim-summary.png)
-![Wave Tool Details sim.html](images/sim-details.png)
-
-* Resources Page
-![Wave Tool Summary resources.html](images/index-summary.png)
-![Wave Tool Details resources.html](images/index-details.png)
+For the Nature Journal Paper section, you can hover over a research item and click on the title to follow the link to the source. You can also click on the publication - which is a deep red color - to access the specific journal. 
 
 ## Part 3: External Tool
 
@@ -291,3 +287,24 @@ rendering an accurate visual was very challenging to do myself.
 
 ## Part 6: Generative AI Use and Reflection
 
+
+
+## Appendix
+
+### Accessibility Evaluations with the WAVE Tool 
+
+* Home Page
+![Wave Tool Summary index.html](images/index-summary.png)
+![Wave Tool Details index.html](images/index-details.png)
+
+* Brain Areas Page
+![Wave Tool Summary brainareas.html](images/brainareas-summary.png)
+![Wave Tool Details brainareas.html](images/brainareas-details.png)
+
+* Simulation Page
+![Wave Tool Summary sim.html](images/sim-summary.png)
+![Wave Tool Details sim.html](images/sim-details.png)
+
+* Resources Page
+![Wave Tool Summary resources.html](images/index-summary.png)
+![Wave Tool Details resources.html](images/index-details.png)
