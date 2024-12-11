@@ -703,10 +703,10 @@ input[type="range"] {
 }
 
 .card-back a {
-    color: #e64949; 
+    color: #6d0a0a; 
     text-decoration: none;
     font-weight: bold;
-    border: 2px solid #e64949;
+    border: 2px solid #6d0a0a;
     padding: 10px 20px; 
     border-radius: 5px;
     display: inline-block; 
@@ -714,8 +714,8 @@ input[type="range"] {
 }
 
 .card-back a:hover {
-    background-color: #e64949;
-    color: #333; 
+    background-color: #6d0a0a;
+    color: rgb(255, 255, 255); 
 }
 
 .card:hover .card-inner,
@@ -797,7 +797,7 @@ input[type="range"] {
 }
 
 .research-details span.date {
-    color: #777;
+    color: rgb(44, 44, 44);
     display: block;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -805,7 +805,7 @@ input[type="range"] {
 }
 
 .research-details span.source a {
-    color: #e64949;
+    color: #6d0a0a;
     text-decoration: none;
     font-size: 15px;
 }

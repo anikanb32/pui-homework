@@ -226,15 +226,25 @@ a tablet size (770 px).
 
 **Simulation Page**
 
-*Resources Page*
+**Resources Page**
 
 ### Here are the accessibility evaluations using the WAVE tool. 
 
 * Home Page
+![Wave Tool Summary index.html](images/index-summary.png)
+![Wave Tool Details index.html](images/index-details.png)
+
+* Brain Areas Page
+![Wave Tool Summary brainareas.html](images/brainareas-summary.png)
+![Wave Tool Details brainareas.html](images/brainareas-details.png)
 
 * Simulation Page
+![Wave Tool Summary sim.html](images/sim-summary.png)
+![Wave Tool Details sim.html](images/sim-details.png)
 
 * Resources Page
+![Wave Tool Summary resources.html](images/index-summary.png)
+![Wave Tool Details resources.html](images/index-details.png)
 
 ## Part 3: External Tool
 
