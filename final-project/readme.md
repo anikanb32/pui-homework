@@ -306,5 +306,5 @@ rendering an accurate visual was very challenging to do myself.
 ![Wave Tool Details sim.html](images/sim-details.png)
 
 * Resources Page
-![Wave Tool Summary resources.html](images/index-summary.png)
-![Wave Tool Details resources.html](images/index-details.png)
+![Wave Tool Summary resources.html](images/resources-summary.png)
+![Wave Tool Details resources.html](images/resources-details.png)
