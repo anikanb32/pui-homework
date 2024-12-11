@@ -197,9 +197,25 @@ How would you use Generative AI responsibly?
 - I would ensure that I do not just take the information given by AI in my solutions, and use it as a guide for implementing new ideas/code inspiration for the more complex development (especially with simulations and brainmaps in a 3D js library).
 
 ---
+# **FP3 \- Final Project Check-In**
 
+## Implementation Plan Updates 
+* The base part of the website is done, but the simulation is still getting to work 
+* I have not yet implemented the 3D brain code from the external tool and haven't gotten it to manipulate 
 
+My goals going forward
+* Finish the resources page 
+* Optimize brain simulation to have changes in algorithm for each condition
+* Embed the 3D brain before making edits (to see if it can be done)
 
+## Generative AI Use Plan Updates 
+
+With this, I knew I could use GenAI to help with the coding and implementation, but I am a bit more clear on where I can use this:
+* I can use generative AI to help implement the brain simulation 
+* This could be creation of the brain as well as implementing the embedding framework in three.js 
+* Some interaction on the resource page can be formatted using generative AI input/help
+
+---
 # **FP4 \- Final Project Writeup**
 
 ## Part 1: Web Description
@@ -287,24 +303,88 @@ rendering an accurate visual was very challenging to do myself.
 
 ## Part 6: Generative AI Use and Reflection
 
+The GenAI tool that I used was **ChatGPT 4o**. I used it to help with code for the more complex implementations - which was the brain simulation, debugging the three.js embedding and server through terminal, as well as for dynamic interactions on the resource page. 
+
+### Usage Experiences by Project Aspects 
+
+For ChatGPT, I have outlined where it has been used in the project, as well as the impact on productivity in the project. For the categories where I have not used ChatGPT, I denoted the productivity rating as 4 - neither improved nor reduced. 
+
+| Tool | Ratings | design | plan | write code | debug | \_ (other?) |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| ChatGPT | Usage | Yes | No | Yes | Yes | No |
+| ChatGPT | Productivity | 5 | 4 | 7 | 7 | 4 |
+
+### Usage Reflection 
+
+> Impact on my design and plan 
+* It matched my expectations and plan in [FP3](#Generative AI Use Plan Updates ): 
+  1. ChatGPT: It gave me an outline for code for the simulation with specifications on neuron shape, size, level of activity, and basic visualization. This gave me a good starting point to build upon and make more particular specifications. It helped debug imports and errors when running "npm install" and "npm run dev" in my terminal with the three.js brain visualization. 
+  
+* It did not match my expectations and plan in [FP2](#generative-ai-use-plan): 
+  1. ChatGPT: I didn't end up using d3.js because instead of a 2D visualization, I decided to explore 3D models - do I used three.js. ChatGPT did give me a good sense of how to use three.js because I was also quite unfamiliar with it. I also did not end up using it as a style guide for color palette and theme - I found that the cohesive design elements were not as strong using ChatGPT as compared to making my own style guide. 
+
+* GenAI tool did influence my final design and implementation plan: 
+  1. ChatGPT: I would not have been able to implement three.js brain code and embed it into the website. I would also not have had a fully-working simulation on the site without guidance. I built upon these basic frameworks that were outputted by GenAI to make them work well within the goals of my project. I also used it as a basis to modify and extend the capabilities of each element.
+
+> Use patterns
+* I accepted the generations when:  
+  1. ChatGPT: It initially outputted a good basis of structure for the simulation code. It suggested good directions and visualization basics to work with. Based on this suggestion, I changed the design to 'look like a brain' and function in a manner that is more similar to synapses in the brain. I brought my previous neuroscience knowledge to adapt and form the basis of the simulation. ChatGPT also suggested how to debug and edit the 3D brain visualization, and I was able to embed it into the website. From this, I extended beyond it to style and localize the red points on the 3D brain to have it adapt to changes based on mouse events. 
+  
+* I critiqued/evaluated the generated suggestions by … For example, 
+  1. ChatGPT: Many times, it suggested changes that were too broad or deviated from my initial idea. For example, the brain shape was very difficult to render. I needed to reject the suggestion and manipulate the variables to render it more similar to a brain shape. I also was not able to add the changes in simulation algorithms for the three different conditions properly, so I needed to modify the parameter effects myself. 
+
+
+> Pros and cons of using GenAI tools
+
+For ChatGPT 
+
+* Pros
+  1. Can help create a baseline to built up and make specifications on top of. 
+  2. For very complex algorithms and visualizations, it can break down the process into steps that are much clearer to understand. 
+
+* Cons
+  1. It is important to ensure that the goals of the website and the project direction doesn't change dependent on Chat outputs. 
+  2. There can be an overall generalization of algorithms and designs that do not make it as unique for design practices. 
+
+### Usage Log 
+
+Debugging Errors: 
+https://chatgpt.com/share/6759f7b2-f050-8013-801a-5263f6937e1a
+https://chatgpt.com/share/6759f7d0-7d34-8013-9890-48d810dc837a
+
+Brain Simulation Code: 
+https://chatgpt.com/share/6759f861-e600-8013-a1cd-c1bd6cf62249
+
+Note: I realized that ChatGPT can't export chats where there is an image inputed, so I was not able to export one additional chat. 
 
 
 ## Appendix
 
 ### Accessibility Evaluations with the WAVE Tool 
 
-* Home Page
+#### **Home Page**
+
 ![Wave Tool Summary index.html](images/index-summary.png)
 ![Wave Tool Details index.html](images/index-details.png)
 
-* Brain Areas Page
+
+#### **Brain Areas Page**
+
 ![Wave Tool Summary brainareas.html](images/brainareas-summary.png)
 ![Wave Tool Details brainareas.html](images/brainareas-details.png)
 
-* Simulation Page
+
+
+#### **Simulation Page**
+
 ![Wave Tool Summary sim.html](images/sim-summary.png)
 ![Wave Tool Details sim.html](images/sim-details.png)
 
-* Resources Page
+
+
+#### **Resources Page**
+
 ![Wave Tool Summary resources.html](images/resources-summary.png)
 ![Wave Tool Details resources.html](images/resources-details.png)
+
+
