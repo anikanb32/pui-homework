@@ -273,6 +273,10 @@ It adds an additional level of depth for understanding the brain in space.
 Users would also easily be able to interact with these elements, offering a much
 more engaging and exciting element of interaction. 
 
+Source: 
+* Visual: https://dbrain-742f1.firebaseapp.com/
+* Codebase: https://github.com/victors1681/3dbrain/blob/master/README.md
+
 ## Part 4: Design Iteration
 
 There were many changes that I made from the original mockup and concept. 

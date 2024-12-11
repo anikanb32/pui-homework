@@ -1,3 +1,5 @@
+/* Index.html home page  */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -41,6 +43,8 @@ section {
     margin-top: 0%;
 }
 
+/* Navigation bar on main page  */
+
 .page-item {
     text-decoration: none;
     font-weight: bold;
@@ -61,6 +65,7 @@ section {
     padding-left: 0;
 }
 
+/* Blinker for cursor  */
 @keyframes blink {
     0% {
         opacity: 1;
@@ -97,7 +102,7 @@ section {
 
 
 
-
+/* Information for different sections  */
 #information-2 {
     display: flex;
     flex-direction: column;
@@ -194,13 +199,12 @@ section {
 }
 
 
-
 .page-item:hover {
     transform: scale(1.4);  
     color: #e64949
 }
 
-
+/* Footer styling  */
 
 #reference {
     background: #000;
@@ -245,7 +249,7 @@ section {
     color: white;
 }
 
-
+/* Brain simulation styles  */
 #brain-container {
     width: 200px; 
     height: 200px;
@@ -290,11 +294,7 @@ canvas {
 }
 
 
-
-
-
-
-
+/* Navigation bar on each page  */
 #nav-title {
     padding-top: 6%;
     text-align: left;
@@ -361,6 +361,8 @@ canvas {
     
 }
 
+/* Styling of gears main page  */
+
 .gears {
     display: flex;
     flex-direction: column; 
@@ -395,7 +397,7 @@ canvas {
     margin-right: 20%;
 }
 
-
+/* Simulation container and controls  */
 #brain-simulation {
     padding: 20px;
     margin: 20px;
@@ -430,7 +432,7 @@ canvas {
     gap: 20px;
     margin-bottom: 20px;
 }
-
+/* Tabs to control */
 .tab-button {
     padding: 10px 20px;
     font-size: 16px;
@@ -485,7 +487,7 @@ canvas {
 }
 
 
-
+/* Simulation controls and text style */
 .controls-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -595,10 +597,7 @@ input[type="range"] {
 
 
 #3d-brain-container {
-    
-    
     color: blue;
-   
 }
 
 .red-circle{
@@ -633,7 +632,7 @@ input[type="range"] {
 }
 
 .card {
-    width: 80%;
+    width: 88%;
     height: 350px;
     perspective: 1000px; 
     cursor: pointer;
