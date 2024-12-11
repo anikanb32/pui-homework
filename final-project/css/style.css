@@ -197,6 +197,7 @@ section {
 
 .page-item:hover {
     transform: scale(1.4);  
+    color: #e64949
 }
 
 
@@ -333,6 +334,19 @@ canvas {
     margin-bottom: 70px;
     gap: 70px;
     color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+    will-change: transform;
+}
+
+.nav-item-clicked {
+    padding: 20px;
+    margin-bottom: 70px;
+    gap: 70px;
+    color: #e64949;
     font-size: 18px;
     border-radius: 20px;
     text-decoration: none;
@@ -511,7 +525,7 @@ input[type="range"] {
     
 }
 
-#sleep {
+#nicotine {
     color: #339966;
     
 }
@@ -592,7 +606,7 @@ input[type="range"] {
     margin-bottom: 5%;
 }
 .red-text {
-    color: red;
+    color: #e64949;
 }
 #interactive-resources {
     padding: 20px;
@@ -611,7 +625,7 @@ input[type="range"] {
 .resource-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-    gap: 20px;
+    gap: 12px;
     justify-content: center;
     align-items: stretch;
     margin: 10%;
@@ -619,7 +633,7 @@ input[type="range"] {
 }
 
 .card {
-    width: 95%;
+    width: 80%;
     height: 350px;
     perspective: 1000px; 
     cursor: pointer;

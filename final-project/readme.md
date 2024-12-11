@@ -309,18 +309,18 @@ The GenAI tool that I used was **ChatGPT 4o**. I used it to help with code for t
 
 For ChatGPT, I have outlined where it has been used in the project, as well as the impact on productivity in the project. For the categories where I have not used ChatGPT, I denoted the productivity rating as 4 - neither improved nor reduced. 
 
-| Tool | Ratings | design | plan | write code | debug | \_ (other?) |
-| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| ChatGPT | Usage | Yes | No | Yes | Yes | No |
-| ChatGPT | Productivity | 5 | 4 | 7 | 7 | 4 |
+| Tool | Ratings | design | plan | write code | debug | 
+| :---- | :---- | :---- | :---- | :---- | :---- | 
+| ChatGPT | Usage | Yes | No | Yes | Yes |
+| ChatGPT | Productivity | 5 | 4 | 7 | 7 | 
 
 ### Usage Reflection 
 
 > Impact on my design and plan 
-* It matched my expectations and plan in [FP3](#Generative AI Use Plan Updates ): 
+* It matched my expectations and plan in FP3: 
   1. ChatGPT: It gave me an outline for code for the simulation with specifications on neuron shape, size, level of activity, and basic visualization. This gave me a good starting point to build upon and make more particular specifications. It helped debug imports and errors when running "npm install" and "npm run dev" in my terminal with the three.js brain visualization. 
   
-* It did not match my expectations and plan in [FP2](#generative-ai-use-plan): 
+* It did not match my expectations and plan in FP2: 
   1. ChatGPT: I didn't end up using d3.js because instead of a 2D visualization, I decided to explore 3D models - do I used three.js. ChatGPT did give me a good sense of how to use three.js because I was also quite unfamiliar with it. I also did not end up using it as a style guide for color palette and theme - I found that the cohesive design elements were not as strong using ChatGPT as compared to making my own style guide. 
 
 * GenAI tool did influence my final design and implementation plan: 

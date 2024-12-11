@@ -148,9 +148,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 color: 0xF9645B,
                 pathways: "Caffeine blocks adenosine receptors, reducing feelings of fatigue and increasing alertness. <br>It also triggers a mild dopamine release, enhancing mood and focus. Regular consumption can lead to tolerance, <br>requiring higher doses for the same effect and potentially affecting sleep cycles and dependency.",
             },
-            sleep: {
+            nicotine: {
                 color: 0x339966,
-                pathways: "Low sleep disrupts the brain's ability to regulate neurotransmitters like dopamine and serotonin, <br>impairing mood, focus, and decision-making. It also increases cortisol levels, heightening stress, <br>and weakens neural connectivity in areas responsible for memory and learning, <br>leading to cognitive decline over time.",
+                pathways: "Nicotine affects brain activity by binding to receptors that release dopamine, <br>creating feelings of pleasure and reinforcing addictive behaviors while altering neurotransmitter balance.",
             },
         };
 
@@ -320,9 +320,9 @@ document.addEventListener("DOMContentLoaded", () => {
             
             if (activeSimulation === "sugar") {
                 return {
-                    activationProbability: dopamineSensitivity * amountOfChange * environmentalEffects * 0.7, 
-                    connectionDistance: 1.5,
-                    maxConnections: 4
+                    activationProbability: dopamineSensitivity * amountOfChange * environmentalEffects * 0.5, 
+                    connectionDistance: 1.2,
+                    maxConnections: 1
                 };
             } else if (activeSimulation === "caffeine") {
                 return {
@@ -330,11 +330,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     connectionDistance: 1.0,
                     maxConnections: 3
                 };
-            } else if (activeSimulation === "sleep") {
+            } else if (activeSimulation === "nicotine") {
                 return {
-                    activationProbability: dopamineSensitivity * amountOfChange * environmentalEffects * 0.2,
-                    connectionDistance: 1.0,
-                    maxConnections: 1
+                    activationProbability: dopamineSensitivity * amountOfChange * environmentalEffects * 0.8,
+                    connectionDistance: 2.0,
+                    maxConnections: 5
                 };
             }
 
